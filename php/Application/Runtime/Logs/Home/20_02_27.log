@@ -1,0 +1,1598 @@
+[ 2020-02-27T21:13:23+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582809203186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0678s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='df0224d68f91bda987254745c4be7199' )  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2020-02-27T21:20:44+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582809644757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2020-02-27T21:20:48+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582809648730
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2020-02-27T21:21:15+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582809675227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2020-02-27T21:34:45+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=5&_=1582810485713
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0031s ]
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+
+[ 2020-02-27T21:34:54+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=5&_=1582810494750
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0017s ]
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+
+[ 2020-02-27T21:37:27+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810647369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+ERR: 1054:Unknown column '历史' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `allbookinfo` WHERE ( typename= 历史 ) 
+
+[ 2020-02-27T21:38:29+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810709249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0042s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2020-02-27T21:38:48+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810728901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0016s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2020-02-27T21:38:59+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810739921
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010224s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0034s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2020-02-27T21:39:02+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810742081
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0017s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2020-02-27T21:39:49+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810789623
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2020-02-27T21:39:50+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810790922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-02-27T21:39:56+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810796032
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2020-02-27T21:39:58+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810797992
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2020-02-27T21:40:44+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810844293
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2020-02-27T21:40:46+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810846664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2020-02-27T21:40:49+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810849416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2020-02-27T21:40:51+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810851457
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2020-02-27T21:41:49+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810909014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2020-02-27T21:41:51+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582810911416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2020-02-27T21:42:15+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810935503
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2020-02-27T21:42:17+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810937400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2020-02-27T21:42:18+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810938584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:42:19+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E5%B8%B8%E4%BC%B4%E5%90%BE%E8%BA%AB%0A++++++++++++&page=1&pageSize=10&_=1582810939440
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              常伴吾身
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2020-02-27T21:42:20+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E5%B8%B8%E4%BC%B4%E5%90%BE%E8%BA%AB%0A++++++++++++&page=1&pageSize=10&_=1582810940271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              常伴吾身
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:42:32+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810952503
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2020-02-27T21:42:34+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810954575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2020-02-27T21:42:49+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810969569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2020-02-27T21:43:11+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810991639
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-27T21:43:12+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810992616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2020-02-27T21:43:13+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810993128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2020-02-27T21:43:13+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810993574
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014337s ]
+
+[ 2020-02-27T21:43:14+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582810994223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2020-02-27T21:43:51+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582811031536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-27T21:43:52+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582811032352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2020-02-27T21:43:53+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582811033160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2020-02-27T21:43:53+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++%E6%AD%BB%E4%BA%A1%E5%A6%82%E9%A3%8E%0A++++++++++++&page=1&pageSize=10&_=1582811033912
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+              死亡如风
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-27T21:44:07+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811047190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2020-02-27T21:44:07+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811047722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008129s ]
+
+[ 2020-02-27T21:44:08+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811048466
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2020-02-27T21:44:24+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811064617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2020-02-27T21:44:28+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811068696
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2020-02-27T21:44:30+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811070697
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2020-02-27T21:44:33+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811073105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:45:07+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811107814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2020-02-27T21:45:08+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811108839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2020-02-27T21:45:12+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811112865
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:45:16+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811116440
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2020-02-27T21:45:21+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811121728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2020-02-27T21:45:39+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811139559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2020-02-27T21:45:40+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811140844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2020-02-27T21:45:42+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811142059
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2020-02-27T21:45:42+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811142778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-02-27T21:46:43+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811202994
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2020-02-27T21:47:10+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811230895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2020-02-27T21:47:11+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811231649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2020-02-27T21:47:13+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811233688
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-02-27T21:47:26+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811246832
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2020-02-27T21:47:27+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811247535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2020-02-27T21:47:28+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811248400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-02-27T21:47:31+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811250972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2020-02-27T21:48:03+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811283489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2020-02-27T21:48:04+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811284012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-02-27T21:49:18+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811358199
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2020-02-27T21:49:19+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811359024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2020-02-27T21:49:19+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811359856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2020-02-27T21:49:22+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811362344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2020-02-27T21:49:23+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811363024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2020-02-27T21:50:02+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811402319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2020-02-27T21:51:11+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811471943
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:51:13+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811473024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2020-02-27T21:52:07+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811527944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2020-02-27T21:54:37+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811677495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2020-02-27T21:54:38+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811678563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-02-27T21:54:41+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811681210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2020-02-27T21:54:43+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811683010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2020-02-27T21:54:46+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811686833
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2020-02-27T21:54:49+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811689425
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2020-02-27T21:54:52+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811692060
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2020-02-27T21:54:53+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811693723
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2020-02-27T21:55:18+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811718161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007553s ]
+
+[ 2020-02-27T21:55:19+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811718972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-02-27T21:55:19+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%B7%A5%E4%B8%9A&page=1&pageSize=10&_=1582811719769
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '工业' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2020-02-27T21:55:20+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%86%9C%E4%B8%9A&page=1&pageSize=10&_=1582811720282
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '农业' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2020-02-27T21:55:21+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++++%0A++++++++++++++++%0A++++++++++++++++++%0A++++++++++++++++%0A++++++++++++++++%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E5%86%85%E5%AE%B9%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E5%86%85%E5%AE%B9%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E5%86%85%E5%AE%B9%E6%B2%A1%E6%9C%89%E6%9B%B4%E5%A4%9A%E5%86%85%E5%AE%B9%0A++++++++++++++%0A++++++++++++&page=1&pageSize=10&_=1582811721689
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+                
+                
+                  
+                
+                没有更多内容没有更多内容没有更多内容没有更多内容
+              
+            ' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2020-02-27T21:55:22+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811722905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2020-02-27T21:55:35+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582811735873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-02-27T21:55:36+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582811736739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007764s ]
+
+[ 2020-02-27T21:55:45+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582811745518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2020-02-27T21:55:45+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582811745594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2020-02-27T21:55:51+08:00 ] ::1 /buiApp/index.php/home/index/getcart?page=1&pageSize=5&_=1582811751291
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: cart F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2020-02-27T22:02:01+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582812121082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2020-02-27T22:02:11+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582812131028
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004058s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2020-02-27T22:02:11+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582812131113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2020-02-27T22:02:50+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582812170559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2020-02-27T22:02:50+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582812170632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2020-02-27T22:02:52+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582812172147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-27T22:02:52+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582812172224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2020-02-27T22:03:17+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582812197613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='9bbef26834e5f99429b576ff879b5984' )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: data F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\UserController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004922s ]
+
+[ 2020-02-27T22:03:25+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582812205843
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='df0224d68f91bda987254745c4be7199' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2020-02-27T22:05:28+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812328737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2020-02-27T22:05:36+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812336628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2020-02-27T22:05:45+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812345619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2020-02-27T22:07:26+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582812445966
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='df0224d68f91bda987254745c4be7199' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2020-02-27T22:08:28+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%0A++++++++++++++%0A++++++++++++++%0A++++++++++++++++%0A++++++++++++++++%0A++++++++++++++++++%0A++++++++++++++++%0A++++++++++++++++%0A++++++++++++++%0A%0A++++++++++++&page=1&pageSize=10&_=1582812508352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '
+              
+              
+                
+                
+                  
+                
+                
+              
+
+            ' )  [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2020-02-27T22:08:43+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582812522981
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='df0224d68f91bda987254745c4be7199' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2020-02-27T22:09:09+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812549822
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2020-02-27T22:11:06+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812666134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2020-02-27T22:12:15+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812735151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+ERR: Call to undefined function Home\Controller\md()
+
+[ 2020-02-27T22:13:08+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582812788086
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+ERR: Call to undefined function Home\Controller\md()
+
+[ 2020-02-27T22:15:01+08:00 ] ::1 /buiApp/index.php/home/user/sendmsg?_=1582812900726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2020-02-27T22:17:11+08:00 ] ::1 /buiApp/index.php/home/user/sendmsg?_=1582813031805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2020-02-27T22:17:18+08:00 ] ::1 /buiApp/index.php/home/user/useradd?_=1582813038044
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0012s ]
+SQL: INSERT INTO `userinfo` (`username`,`userpwd`,`usertel`) VALUES ('test1','test1','1') [ RunTime:0.0124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2020-02-27T22:17:41+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?_=1582813061598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2020-02-27T22:19:36+08:00 ] ::1 /buiApp/index.php/home/index/changepwd?inputpwd=test1&resetpwd=123&_=1582813176350
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2020-02-27T22:30:27+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E5%8E%86%E5%8F%B2&page=1&pageSize=10&_=1582813827572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '历史' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2020-02-27T22:30:39+08:00 ] ::1 /buiApp/index.php/home/index/typeBook?type=%E7%A7%91%E5%AD%A6&page=1&pageSize=10&_=1582813839772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `allbookinfo` WHERE ( typename= '科学' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+

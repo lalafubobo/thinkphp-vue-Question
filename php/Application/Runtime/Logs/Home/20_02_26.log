@@ -1,0 +1,40 @@
+[ 2020-02-26T19:15:43+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=1&pageSize=5&_=1582715742363
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009036s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026001s ]
+
+[ 2020-02-26T19:15:44+08:00 ] ::1 /buiApp/index.php/home/index/getbooklist?page=2&pageSize=5&_=1582715743981
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `allbookinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `allbookinfo`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2020-02-26T19:16:43+08:00 ] ::1 /buiApp/index.php/home/user/login?_=1582715803113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `userinfo` WHERE ( username='fubobo' and userpwd='15de21c670ae7c3f6f3f1f37029303c9' )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: data F:\phpstudy_pro\WWW\buiApp\Application\Home\Controller\UserController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+

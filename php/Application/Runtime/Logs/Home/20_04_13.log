@@ -1,0 +1,27 @@
+[ 2020-04-13T20:34:48+08:00 ] ::1 /phpQuest/php/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011975s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `userinfo` WHERE ( Uname='test' and Upassword='test' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011985s ]
+
+[ 2020-04-13T20:34:55+08:00 ] ::1 /phpQuest/php/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `userinfo` WHERE ( Uname='test' and Upassword='testw' )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data F:\phpstudy_pro\WWW\phpQuest\php\Application\Home\Controller\UserController.class.php 第 71 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
